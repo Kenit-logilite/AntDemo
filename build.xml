@@ -1,1 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<project default ="run" name = "Kenit is Practising - compile and run JAVA class">
+	<target name="run" depends="compile">
+	</target> 
+	<target name="compile">
+		<javac includeantruntime="false" srcdir="./src" destdir="staging"/>
+	</target>
+
+</project>
